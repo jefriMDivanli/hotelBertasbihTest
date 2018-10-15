@@ -1,0 +1,57 @@
+* {
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+.registration {
+    background-image: url('./image/register.jpg');
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.registrationbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    opacity: .7;
+    background-color: white;
+    clip-path: polygon(30% 20%, 70% 20%, 80% 80%, 20% 80%);
+}
+
+.registrationgreets {
+    font-size: 25px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.registrationgreets p {
+    margin: 5px;
+}
+
+.registrationform {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    font-weight: bold
+}
+
+.textboxregister {
+    height: 20px;
+    width: 300px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#submitButton {
+    border: 2px solid grey;
+    margin: 10px;
+    height: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width:150px;
+    align-self: center;
+}

@@ -1,0 +1,64 @@
+.kamar-grid {
+    z-index: 10;
+}
+
+.render-kamar {
+    height: auto;
+    padding: 20px 10px 0 10px;
+}
+
+.kamar-text {
+    color: grey;
+    padding-top: 75px;
+    width: 100%;
+    text-align: center;
+}
+
+.data-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.data-card:hover {
+    transform: translateY(-3px);
+
+    /* box shadow value: x  y blur color */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .3);
+}
+
+.data-card:hover .data-name, 
+.data-card:hover .data-harga{
+    transition: 1s;
+    color: grey;
+}
+
+.data-card:hover .data-img{
+    border: 4px solid grey;
+    transition: 1s;
+}
+
+.data-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid silver;
+    align-self: center
+}
+
+.data-name {
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+    /* border-top: 2px solid silver; */
+}
+
+.data-harga {
+    font-style: italic;
+}
